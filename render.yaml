@@ -1,0 +1,19 @@
+# render.yaml
+
+services:
+  - type: web
+    name: react-blog
+    buildCommand: npm install && npm run build
+    startCommand: npm start
+    envVars:
+      - key: NODE_ENV
+        value: production
+    healthCheckPath: /
+  - type: web
+    name: json-server
+    buildCommand: npm install
+    startCommand: json-server --watch db.json
+    envVars:
+      - key: NODE_ENV
+        value: production
+    healthCheckPath: /
