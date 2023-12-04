@@ -1,0 +1,62 @@
+{
+  "posts": [
+    {
+      "title": "tests",
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic deserunt modi alias aliquam esse rem magnam sunt quibusdam ab. Quibusdam explicabo odio suscipit hic laudantium animi at repellendus consequatur veniam.",
+      "category": "Fitness",
+      "imageUrl": "http://res.cloudinary.com/dhn9skbzx/image/upload/v1700455262/react-blog/k14gg3skghjedljg40ly.jpg",
+      "date": "11/20/2023",
+      "id": 1
+    },
+    {
+      "title": "czxc",
+      "description": "zxczxc",
+      "category": "Fashion",
+      "imageUrl": "http://res.cloudinary.com/dhn9skbzx/image/upload/v1701570748/react-blog/iu9oidffuatgvsgvvuce.jpg",
+      "date": "12/03/2023",
+      "id": 2
+    },
+    {
+      "title": "czxc",
+      "description": "dfgdfg",
+      "category": "Tech",
+      "imageUrl": "http://res.cloudinary.com/dhn9skbzx/image/upload/v1701570765/react-blog/do8cqq9luzniiw0e8g1y.jpg",
+      "date": "12/03/2023",
+      "id": 3
+    },
+    {
+      "title": "sdfsdf",
+      "description": "sdfsdf",
+      "category": "Fitness",
+      "imageUrl": "http://res.cloudinary.com/dhn9skbzx/image/upload/v1701570804/react-blog/f80imebgufvsgky1gzdo.jpg",
+      "date": "12/03/2023",
+      "id": 4
+    },
+    {
+      "title": "sdfsdf",
+      "description": "cvcxvcv",
+      "category": "Fitness",
+      "imageUrl": "http://res.cloudinary.com/dhn9skbzx/image/upload/v1701570816/react-blog/b1iaqfbolspjfhxzlc4s.jpg",
+      "date": "12/03/2023",
+      "id": 5
+    },
+    {
+      "title": "fdg",
+      "description": "test",
+      "category": "Fitness",
+      "imageUrl": "http://res.cloudinary.com/dhn9skbzx/image/upload/v1701666136/react-blog/ihzfnd0ncimmnkj8i7xe.png",
+      "date": "12/04/2023",
+      "id": 6
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
