@@ -27,6 +27,7 @@ const Blog = () => {
     if(id) {
       getSingleBlog();
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [id]);
 
   const getSingleBlog = async () => {
@@ -83,7 +84,7 @@ const Blog = () => {
         <>
           <h1>Related Post</h1>
           <MDBRow className='row-cols-1 row-cols-md-3 g-4'>
-            {relatedPost.filter((item) => item.id != id).map((item, index) => (
+            {relatedPost.filter((item) => item.id !== id).map((item, index) => (
               <Link to={`/blog/${item.id}`} key={index}>
                 <MDBCol>
                     <MDBCard style={{ height: '350px' }}>

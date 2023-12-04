@@ -60,7 +60,7 @@ const ManageBlog = () => {
       setCategoryErrMsg("Category is required")
     }
 
-    const imageValidation = !editMode ? imageUrl : true;
+    // const imageValidation = !editMode ? imageUrl : true;
 
     if(title && description && imageUrl && category) {
       const currentDate = getDate();

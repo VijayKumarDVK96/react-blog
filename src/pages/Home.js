@@ -26,6 +26,7 @@ const Home = () => {
   useEffect(() => {
     loadBlog(0, 3, 0);
     fetchLatestBlog();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [])
 
   const options = ["Travel", "Fashion", "Fitness", "Sports", "Food", "Tech"]
