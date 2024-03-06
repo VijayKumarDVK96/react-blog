@@ -1,6 +1,6 @@
 # Blog App using React
 
-**DEMO : https://main--cheery-marshmallow-e70216.netlify.app/** 
+**DEMO : https://simple-react-blog-application.netlify.app/** 
 
 Developed a website for showcasing photos using React
 
